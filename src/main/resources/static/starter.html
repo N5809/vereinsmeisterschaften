@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Starter · Vereinsmeisterschaft</title><link rel="stylesheet" href="/css/app.css"><script type="module" src="/js/station.js"></script></head>
+<body class="station-page" data-station="starter"><header class="app-header"><div><span class="eyebrow">DLRG · ZEITNAHME</span><h1 id="station-title">Starter</h1></div><button id="logout" class="quiet">Abmelden</button></header><main class="station">
+<div class="station-meta"><span id="connection" class="badge">Verbinde …</span><span id="clock-status" class="small muted">Zeitabgleich …</span></div>
+<div id="toast" class="toast" role="alert" hidden></div><div class="heat-info"><span id="heat-number" class="eyebrow dark">WARTE AUF LAUF</span><h2 id="swimmer">Noch kein Lauf aktiviert</h2><p id="discipline" class="muted"></p></div>
+<div id="timer" class="timer" aria-label="Gemessene Zeit">00:00,00</div><p id="measurement-status" class="measurement-status">Die Verwaltung bereitet den Lauf vor.</p>
+<button id="ready" class="secondary wide" disabled>Bereitschaft bestätigen</button><button id="timing-button" class="timing-button start" disabled>START</button>
+<button id="false-start" type="button" class="danger wide false-start-button" hidden>Fehlstart · Lauf wiederholen</button>
+<div id="lane-overview" class="panel"></div><p class="small muted">Beim Pfeifen auf START drücken. Der Start gilt erst nach Bestätigung durch den Laptop. Bei einem Fehlstart „Fehlstart · Lauf wiederholen“ drücken. Alle Stationen bestätigen danach erneut Bereitschaft. Seite geöffnet und Bildschirm eingeschaltet lassen.</p><button id="wake" class="quiet wide">Bildschirm wach halten</button><p id="wake-note" class="small muted"></p>
+<section id="pending-panel" class="panel" hidden><h3>Lokal gesicherte Ereignisse</h3><div id="pending-list"></div></section>
+</main></body></html>
